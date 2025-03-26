@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping  
     public String home() {
-        return "Olá, Mundo! 🚀";
+        return "Olá, Mundo!";
     }
 
     @GetMapping("/somar/{num1}/{num2}")
