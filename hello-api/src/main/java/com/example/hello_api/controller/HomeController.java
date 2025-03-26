@@ -22,7 +22,6 @@ public class HomeController {
         
         return String.format("O resulta da soma entre %s e %s é %d", num1, num2, soma);
        
-
     }
     
     @GetMapping("/bemvindo/{nome}")
