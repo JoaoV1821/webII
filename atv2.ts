@@ -28,6 +28,6 @@ function calcularMedia(...notas: number[]): number {
 const media = calcularMedia(8, 7.5, 9);
 const day = weekDay(1)
 console.log(`A média das notas é: ${media.toFixed(2)}`);
-console.log(dia);
+console.log(day);
 
 
