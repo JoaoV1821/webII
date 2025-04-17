@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SubtracaoComponent } from "./pages/subtracao/subtracao.component";
+import { SomaComponent } from './pages/soma';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [SubtracaoComponent],
+  imports: [CommonModule, SomaComponent],
   templateUrl: './app.component.html',
+
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'subtracao';
+  title = 'soma';
 }

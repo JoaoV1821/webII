@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { SubtracaoComponent } from "./pages/subtracao/subtracao.component";
+
+import { DivisaoComponent } from "./pages/divisao/divisao.component";
 
 @Component({
   selector: 'app-root',
-  imports: [SubtracaoComponent],
+  imports: [DivisaoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'subtracao';
+  title = 'divisao';
 }
